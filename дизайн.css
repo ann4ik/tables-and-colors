@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+body{ background-color: rgb(105, 94, 176);}
+p{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+table{
+    border: double 5px blue;
+    width: 50%;
+    font-size: 24px;
+    border-collapse: separate;
+    margin: auto;
+    
+}
+th{
+    border: solid 2px blue;
+}
+th,td{ 
+    border: solid 2px salmon;
+    width: 25%;
+    height: 1cm;
+}
+tr:hover{
+    background-color: lightblue;
+} 
+td:hover{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: aqua;
+    font-size: 1.5em;
+    background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+}
+tr:nth-child(odd){
+    background-color: rgb(189, 104, 215);
+}
+tr:nth-child(even){
+    background-color: darksalmon;
+}
+.sc{
+    text-align: right;
+    vertical-align: middle;
+    color: green;
+    font-style: italic;
+}
+caption{
+    font-size: 50px;
+    color: chartreuse;
+    background: linear-gradient(to left,red, orange, yellow, green, blue, blueviolet);
+}
